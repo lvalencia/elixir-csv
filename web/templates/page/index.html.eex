@@ -1,0 +1,8 @@
+<div class="jumbotron">
+  <h2>Please Select a valid CSV file to process</h2>
+  <%= form_for @conn, csv_path(@conn, :upload), [name: :csv_upload, method: :post, multipart: true], fn f -> %>
+    <%= file_input f, :csv, [accept: '.csv'] %>
+    <%= submit "Upload" %>
+  <% end %>
+</div>
+

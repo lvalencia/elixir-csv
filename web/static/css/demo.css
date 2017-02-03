@@ -1,0 +1,7 @@
+main .jumbotron {
+    text-align: left;
+}
+main form,
+main h2 {
+    padding-left: 16px;
+}
