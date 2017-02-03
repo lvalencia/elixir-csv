@@ -5,6 +5,7 @@ Dependencies:
   * `brew install elixir`
   * `brew install postgresql`
   * `brew services start postgresql`
+  * `brew install node`
   * Install Phoenix http://www.phoenixframework.org/docs/installation
 
 To start your Phoenix app:
