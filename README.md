@@ -1,4 +1,11 @@
-# CsvUpload
+# CsvUpload Demo
+
+Dependencies:
+
+  * `brew install elixir`
+  * `brew install postgresql`
+  * `brew services start postgresql`
+  * Install Phoenix http://www.phoenixframework.org/docs/installation
 
 To start your Phoenix app:
 
