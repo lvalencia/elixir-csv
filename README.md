@@ -4,6 +4,7 @@ Dependencies:
 
   * `brew install elixir`
   * `brew install postgresql`
+  * `/usr/local/Cellar/postgresql/<version>/bin/createuser -s postgres`
   * `brew services start postgresql`
   * `brew install node`
   * Install Phoenix http://www.phoenixframework.org/docs/installation
