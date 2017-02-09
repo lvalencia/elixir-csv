@@ -1,0 +1,21 @@
+version: '2'
+services:
+  csv_upload:
+    image: hallmarklabs/csv_upload:latest
+    environment:
+      - PORT=8888
+    ports:
+      - "8888:8888"
+    networks:
+      - csv_upload_network
+    depends_on:
+      - csv_upload_db
+
+  csv_upload_db:
+    image: hallmarklabs/csv_upload_db:latest
+    networks:
+      - csv_upload_network
+
+networks:
+  csv_upload_network:
+    driver: bridge
