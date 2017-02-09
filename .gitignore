@@ -26,3 +26,6 @@ erl_crash.dump
 # System Specific
 .DS_Store
 .idea
+
+# Build Specific
+/tarballs
